@@ -1,5 +1,6 @@
 [workspace]
 members = [
-    "src/backend_backend"
+    "src/smart_city_backend",
+    "src/smart_city_app/src-tauri"
 ]
 resolver = "2"

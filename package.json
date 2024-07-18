@@ -1,0 +1,19 @@
+{
+  "name": "smart_city",
+  "version": "1.0.0",
+  "description": "Welcome to your new `backend` project and to the Internet Computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm --prefix src/smart_city_app install",
+    "dev": "npm --prefix src/smart_city_app run dev",
+    "build": "npm --prefix src/smart_city_app run build",
+    "preview": "npm --prefix src/smart_city_app run preview",
+    "tauri": "npm --prefix src/smart_city_app run tauri"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dfinity/identity": "^2.0.0",
+    "crypto-browserify": "^3.12.0"
+  }
+}

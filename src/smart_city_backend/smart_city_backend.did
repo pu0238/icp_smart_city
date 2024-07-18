@@ -1,0 +1,5 @@
+type StreetLightData = record { change_duration : nat64; timestamp : nat64 };
+service : (opt principal) -> {
+  set_change_duration : (principal, nat64) -> ();
+  sync_street_light : () -> (nat64, StreetLightData) query;
+}

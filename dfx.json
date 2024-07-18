@@ -1,9 +1,11 @@
 {
   "canisters": {
-    "backend_backend": {
-      "candid": "src/backend_backend/backend_backend.did",
-      "package": "backend_backend",
-      "type": "rust"
+    "smart_city_backend": {
+      "candid": "src/smart_city_backend/smart_city_backend.did",
+      "package": "smart_city_backend",
+      "type": "custom",
+      "wasm": "target/wasm32-unknown-unknown/release/smart_city_backend-opt.wasm.gz",
+      "build": "./build.sh smart_city_backend"
     }
   },
   "defaults": {
